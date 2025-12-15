@@ -79,7 +79,7 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                 <span className="text-muted-foreground text-sm">
-                  1086, Muscat 420, Oman
+                  Abu Dhabi, Dubai
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -91,7 +91,7 @@ const Footer = () => {
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-primary flex-shrink-0" />
                 <a href="mailto:info@backflipgym.com" className="text-muted-foreground text-sm hover:text-primary transition-colors">
-                  info@backflipgym.com
+                  info@gym.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -108,7 +108,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            © {currentYear} Backflip Gym. All rights reserved.
+            © {currentYear} Trainer Gym. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link to="/privacy" className="text-muted-foreground text-sm hover:text-primary transition-colors">
