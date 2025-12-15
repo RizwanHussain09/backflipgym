@@ -212,7 +212,7 @@ const Index = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
-            className="text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
+            className="text-xl text-black max-w-2xl mx-auto mb-10"
           >
             Experience fitness redefined at Backflip Gym. Where state-of-the-art equipment 
             meets world-class training in Oman's most exclusive fitness environment.
@@ -223,7 +223,7 @@ const Index = () => {
             transition={{ duration: 0.6, delay: 0.8 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <Button asChild size="lg" className="bg-gradient-gold hover:shadow-gold hover:scale-105 transition-all duration-300 text-lg px-8 group">
+            <Button asChild size="lg" className="bg-gradient-gold hover:shadow-gold hover:scale-105 transition-all duration-300 text-lg text-black px-8 group">
               <Link to="/membership">
                 Join Now <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -271,7 +271,7 @@ const Index = () => {
                   <stat.icon className="w-8 h-8 text-primary group-hover:scale-110 transition-transform duration-300" />
                 </div>
                 <Counter value={stat.value} suffix={stat.suffix} />
-                <p className="text-muted-foreground mt-2 group-hover:text-foreground transition-colors duration-300">
+                <p className="text-black mt-2 group-hover:text-foreground transition-colors duration-300">
                   {stat.label}
                 </p>
               </motion.div>
@@ -315,7 +315,7 @@ const Index = () => {
                   <h3 className="text-xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors duration-300">
                     {program.title}
                   </h3>
-                  <p className="text-muted-foreground text-sm mb-4 opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-4 group-hover:translate-y-0">
+                  <p className="text-black text-sm mb-4 opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-4 group-hover:translate-y-0">
                     {program.description}
                   </p>
                   <Link
@@ -377,7 +377,7 @@ const Index = () => {
                 />
               </span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
+            <p className="text-xl text-black max-w-2xl mx-auto mb-10">
               Join Backflip Gym today and start your journey towards a stronger, healthier you. 
               First week is on us.
             </p>
@@ -431,7 +431,7 @@ const Index = () => {
                     <span className="absolute -bottom-4 -right-4 text-3xl text-primary/30">"</span>
                   </p>
                   <h4 className="text-foreground font-semibold text-lg">{testimonials[currentTestimonial].name}</h4>
-                  <p className="text-muted-foreground text-sm">{testimonials[currentTestimonial].role}</p>
+                  <p className="text-black text-sm">{testimonials[currentTestimonial].role}</p>
                 </div>
               </div>
             </motion.div>

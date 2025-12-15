@@ -15,7 +15,7 @@ const Footer = () => {
                 <Dumbbell className="w-6 h-6 text-primary-foreground" />
               </div>
               <span className="text-xl font-bold text-foreground">
-                BACKFLIP <span className="text-primary">GYM</span>
+                Prime <span className="text-primary">Fitness</span>
               </span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
@@ -108,7 +108,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            © {currentYear} Trainer Gym. All rights reserved.
+            © {currentYear} Universe Fitness. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link to="/privacy" className="text-muted-foreground text-sm hover:text-primary transition-colors">
