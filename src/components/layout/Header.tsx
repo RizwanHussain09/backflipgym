@@ -46,7 +46,7 @@ const Header = () => {
             <Dumbbell className="w-6 h-6 text-primary-foreground" />
           </div>
           <span className="text-xl font-bold text-foreground">
-            BACKFLIP <span className="text-primary">GYM</span>
+            Trainer <span className="text-primary">GYM</span>
           </span>
         </Link>
 
